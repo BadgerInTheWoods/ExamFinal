@@ -1,0 +1,63 @@
+ 1182  cat >> homepet
+
+ 1183  cat homepet
+
+ 1184  cat >> packpet
+
+ 1185  cat homepet packpet > allpet
+
+ 1186  tree
+
+ 1187  cat allpet
+
+ 1188  mv allpet humanfriend
+
+ 1189  tree
+
+ 1190  mkdir animals
+
+ 1191  mv humanfriend animals/
+
+ 1192  tree
+
+ 1193  sudo apt update
+
+ 1194  apt cache
+
+ 1195  apt-cache
+
+ 1196  apt-cache search
+
+ 1197  apt-cache search my
+
+ 1198  sudo apt install gnupg
+
+ 1199  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+
+ 1200  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+
+ 1201  sudo apt install mysql-server mysql-client
+
+ 1202  sudo apt install mysql-server mysql-client --fix-missing
+
+ 1203  wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mysqltcl/mysqltcl_3.052-2_amd64.deb
+
+ 1204  sudo dpkg -i mysqltcl_3.052-2_amd64.deb
+
+ 1205  wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb\nsudo dpkg -i mysql-apt-config_0.8.24-1_all.deb\n
+
+ 1206  sudo apt update\n
+
+ 1207  sudo apt install mysql-server
+
+ 1208  wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+
+ 1209  clear
+
+ 1210  cd hw3
+
+ 1211  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb\n
+
+ 1212  sudo dpkg -r mysql-apt-config_0.8.24-1_all.deb\n
+
+ 1213  history
