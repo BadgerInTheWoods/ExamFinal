@@ -4,13 +4,17 @@ import java.util.Scanner;
 
 class Registry {
     private List<Animal> animals;
+    private Counter counter;
 
     public Registry() {
         animals = new ArrayList<>();
+        counter = new Counter(); // Initialize the counter
     }
 
     public void addAnimal(Animal animal) {
         animals.add(animal);
+        counter.add(); // Increment the counter
+        System.out.println("Animal registered. Total animals registered: " + counter.getCount());
     }
 
     public void showAnimals() {
